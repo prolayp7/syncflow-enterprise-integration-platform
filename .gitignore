@@ -1,0 +1,29 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# PHP / Symfony
+/vendor/
+/backend/var/
+/backend/.phpunit.cache/
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+docker-data/
